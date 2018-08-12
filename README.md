@@ -2,11 +2,17 @@
 
 #### A microservice project, part of Free Code Camp's curriculum
 
-Three services are there,
+Three REST services,
 
-- POST /api/exercise/new-user : Create a New User
-- POST /api/exercise/add : Add exercises
-- GET /api/exercise/log?{userId}[&from][&to][&limit] : GET users's exercise log
+Create a New User
+- POST /api/exercise/new-user
+
+Add exercises
+- POST /api/exercise/add
+
+GET Users's exercise log
+- GET /api/exercise/log?{userId}[&from][&to][&limit]
+
   { } = required, [ ] = optional
   from, to = dates (yyyy-mm-dd); limit = number
 
