@@ -1,5 +1,7 @@
 # Exercise Tracker REST API
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/drex44/Exercise-Tracker-REST-API.svg)](https://greenkeeper.io/)
+
 #### A microservice project, part of Free Code Camp's curriculum
 
 Three REST services,
